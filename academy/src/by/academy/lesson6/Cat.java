@@ -1,8 +1,11 @@
 package by.academy.lesson6;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Cat {
+import by.academy.lesson9.Animal;
+
+public class Cat extends Animal implements Serializable {
 	String nickname;
 	int age;
 	
